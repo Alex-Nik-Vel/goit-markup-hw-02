@@ -1,9 +1,9 @@
 :root {
   --title-color: #212121;
   --section-background: #e5e5e5;
-  --texst-color:#757575;
-  --booton-color:#2196f3;
-  --footer-header-backgraund:#2f303a;
+  --texst-color: #757575;
+  --booton-color: #2196f3;
+  --footer-header-backgraund: #2f303a;
 }
 body {
   font-family: "roboto";
@@ -31,7 +31,9 @@ body {
 .link:focus {
   color: var(--booton-color);
 }
-.link.current{color: var(--booton-color);}
+.link.current {
+  color: var(--booton-color);
+}
 
 /* contacts */
 .contacts {
@@ -62,11 +64,23 @@ body {
   font-size: 44px;
   line-height: 60px;
 }
-.button-hero {
+/* BOOtON */
+.button-hero, {
+  background-color: var(--booton-color);
+  color:rgba(33, 33, 33, 1);
+  cursor: pointer;
+}
+.button-portfo {
+  background-color: #F5F4FA;
+  color:rgba(33, 33, 33, 1);
+}
+.button-portfo:hover,
+.button-portfo:focus {
   background-color: var(--booton-color);
   color: white;
   cursor: pointer;
 }
+
 
 /* section */
 .section {
@@ -89,7 +103,9 @@ body {
   line-height: 24px;
 }
 .footer-contacts:hover,
-.footer-contacts:focus{color: var(--booton-color)}
+.footer-contacts:focus {
+  color: var(--booton-color);
+}
 .footer > a {
   color: white;
 }
