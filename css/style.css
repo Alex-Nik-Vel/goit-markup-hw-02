@@ -6,26 +6,36 @@
   --footer-header-backgraund: #2f303a;
 }
 body {
-  font-family: "roboto";
+  font-family: "roboto", sans-serif;
   background-color: white;
   color: var(--texst-color);
+  letter-spacing: 3%;
 }
 .list-ul {
   list-style: none;
 }
-/* header */
-/* site nav */
+/* _____header _____*/
 
 /* logotype */
 .logo {
   color: var(--title-color);
   font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-web {
   color: var(--booton-color);
 }
-.link {
+/* Nav */
+.nav {
+  letter-spacing: 0.02em;
+}
+.link,
+.contacts {
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .link:hover,
 .link:focus {
@@ -42,8 +52,7 @@ body {
 .contacts:hover {
   color: var(--booton-color);
 }
-.contacts,
-.site-nav {
+/* .site-nav {
   font-style: Medium;
   font-size: 14px;
   line-height: 16px;
@@ -51,8 +60,9 @@ body {
   align-items: Left;
   vertical-align: Top;
   letter-spacing: 2%;
-}
-/* hero */
+} */
+
+/* ___hero___ */
 .title {
   color: var(--title-color);
 }
@@ -61,18 +71,34 @@ body {
   color: rgb(255, 255, 255);
 }
 .title-hero {
+  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-/* BOOtON */
-.button-hero, {
+/*___ BOOtON ___*/
+.button-hero {
+  font-family: inherit;
   background-color: var(--booton-color);
-  color:rgba(33, 33, 33, 1);
+  color: white;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button-portfo {
-  background-color: #F5F4FA;
-  color:rgba(33, 33, 33, 1);
+  font-family: inherit;
+  background-color: #f5f4fa;
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 .button-portfo:hover,
 .button-portfo:focus {
@@ -81,16 +107,32 @@ body {
   cursor: pointer;
 }
 
+/*___section____ */
+.title-pecul {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
 
-/* section */
-.section {
+.title-do,
+.title-teams {
+  font-size: 36px;
+  line-height: 1.17x;
+  text-align: center;
+}
+.section-team {
   background-color: #f5f4fa;
+}
+.list-team {
+  background-color: white;
 }
 .section-desc {
   font-size: 14px;
-  line-height: 146%;
-  font-style: Regular;
+  line-height: 1.7;
 }
+/* section portfolio */
+
+
 
 /* footer */
 .footer {
