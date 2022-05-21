@@ -9,7 +9,7 @@ body {
   font-family: "roboto", sans-serif;
   background-color: white;
   color: var(--texst-color);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .list-ul {
   list-style: none;
@@ -22,6 +22,7 @@ body {
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .logo-web {
   color: var(--booton-color);
@@ -29,6 +30,7 @@ body {
 /* Nav */
 .nav {
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .link,
 .contacts {
@@ -36,6 +38,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -95,7 +98,6 @@ body {
 .button-hero:focus {
   background-color: #f5f4fa;
   color: rgba(33, 33, 33, 1);
-  
 }
 .button-portfo {
   font-family: inherit;
@@ -118,6 +120,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .title-do,
@@ -128,6 +131,9 @@ body {
 }
 .section-team {
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
 }
 .list-team {
   background-color: white;
@@ -143,9 +149,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfo-desc{
+.portfo-desc {
   font-size: 16px;
-line-height: 1.88;
+  line-height: 1.88;
 }
 
 /* footer */
@@ -153,10 +159,14 @@ line-height: 1.88;
   background-color: var(--footer-header-backgraund);
   color: white;
 }
+.footer-addres {
+  font-style: normal;
+}
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
